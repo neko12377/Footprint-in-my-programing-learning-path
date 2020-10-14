@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cffe8e05-eb76-468a-a299-580d0c891831" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="dcqngsmt" />
+  </component>
+  <component name="ProjectId" id="1gaFcP3qnvIq7JSVyRnJ47Jqczj" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/node_modules" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cffe8e05-eb76-468a-a299-580d0c891831" name="Default Changelist" comment="" />
+      <created>1598344874262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598344874262</updated>
+      <workItem from="1598344875335" duration="5153000" />
+      <workItem from="1598429904414" duration="5254000" />
+      <workItem from="1598844977626" duration="23000" />
+      <workItem from="1600496963062" duration="1348000" />
+      <workItem from="1600580503584" duration="3360000" />
+      <workItem from="1600916327039" duration="8413000" />
+      <workItem from="1600960428767" duration="14733000" />
+      <workItem from="1602146551279" duration="54000" />
+      <workItem from="1602657498546" duration="4024000" />
+      <workItem from="1602668397730" duration="313000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="352" y="169" key="SettingsEditor" timestamp="1598345572533">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="352" y="169" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1598345572533" />
+    <state x="627" y="-747" key="refactoring.ChangeSignatureDialog" timestamp="1602661317961">
+      <screen x="-180" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="627" y="-747" key="refactoring.ChangeSignatureDialog/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1602661317961" />
+    <state x="505" y="250" key="search.everywhere.popup" timestamp="1598524633453">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="250" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598524633453" />
+  </component>
+</project>
