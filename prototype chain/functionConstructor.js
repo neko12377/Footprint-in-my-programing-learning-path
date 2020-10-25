@@ -8,15 +8,16 @@ function Person(firstName, lastName) {
 // function 宣告時會建立 Execution Context, 裡面包含 Global Object, this, Outer Environment
 // 使用 new 運算子時, 會先有一個空的物件被建立
 const kasper = new Person("KB", "CHEN"); // this被指定到使用 new 運算子時建立的空物件
+// People 這個函式被執行（invoke)時, 在 execution context 中會有 this 被建立, 而當我們使用 new 的時候，函式裡面的 this 會被指定成剛剛所建立的那個空物件。
 //執行 Person 這個 function 時, this.firstName, this.lastName 是在幫 new 建立的空物件賦予屬性名稱和屬性值
-console.log(kasper);
+console.log("kasper", kasper);
 
 function someone(){
     console.log(this, "用來確認使用 new 時 this 是否指到空物件");
 }
 
 const john = new someone(); //執行 someone
-// console.log(john);
+console.log(john);
 
 function Reaction(happy, sad) {
     this.happy = happy;
