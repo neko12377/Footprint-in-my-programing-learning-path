@@ -1,3 +1,6 @@
-const OO = () => () => 2
+function foo() {
+    foo();
+}
 
-console.log(OO)
+foo()
+

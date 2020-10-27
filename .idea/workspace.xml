@@ -27,12 +27,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cffe8e05-eb76-468a-a299-580d0c891831" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/prototype chain/prototype.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virtual dom/index.js" afterDir="false" />
+    <list default="true" id="cffe8e05-eb76-468a-a299-580d0c891831" name="Default Changelist" comment="learn prototype chain">
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototype chain.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/prototype chain/functionConstructor.js" beforeDir="false" afterPath="$PROJECT_DIR$/prototype chain/functionConstructor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +74,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -79,6 +83,13 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/node_modules" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -102,8 +113,33 @@
       <workItem from="1602871043748" duration="1860000" />
       <workItem from="1603243733570" duration="657000" />
       <workItem from="1603493519212" duration="688000" />
-      <workItem from="1603618979203" duration="2959000" />
+      <workItem from="1603618979203" duration="3284000" />
+      <workItem from="1603705433218" duration="807000" />
+      <workItem from="1603779813005" duration="2177000" />
+      <workItem from="1603803973815" duration="294000" />
+      <workItem from="1603804297785" duration="35000" />
+      <workItem from="1603804354761" duration="254000" />
+      <workItem from="1603804629824" duration="155000" />
+      <workItem from="1603804819614" duration="750000" />
+      <workItem from="1603805734841" duration="43000" />
+      <workItem from="1603805800412" duration="91000" />
+      <workItem from="1603805911182" duration="29000" />
+      <workItem from="1603805945953" duration="54000" />
+      <workItem from="1603806087369" duration="97000" />
+      <workItem from="1603806207256" duration="342000" />
+      <workItem from="1603806570408" duration="118000" />
+      <workItem from="1603806710823" duration="62000" />
+      <workItem from="1603806796558" duration="42000" />
+      <workItem from="1603806862956" duration="359000" />
     </task>
+    <task id="LOCAL-00001" summary="learn prototype chain">
+      <created>1603651106439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603651106439</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,15 +157,32 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="learn prototype chain" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn prototype chain" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="244" y="-867" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602669880021">
       <screen x="-180" y="-1057" width="1920" height="1057" />
     </state>
     <state x="244" y="-867" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1602669880021" />
-    <state x="352" y="169" key="SettingsEditor" timestamp="1598345572533">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="289" y="-802" key="IDE.errors.dialog" timestamp="1603805981210">
+      <screen x="-1023" y="-1057" width="3840" height="1057" />
     </state>
+    <state x="289" y="-802" key="IDE.errors.dialog/0.23.1680.1027/-1023.-1057.3840.1057@-1023.-1057.3840.1057" timestamp="1603805981210" />
+    <state x="-111" y="-908" key="SettingsEditor" timestamp="1603806772696">
+      <screen x="-1023" y="-1057" width="3840" height="1057" />
+    </state>
+    <state x="-111" y="-908" key="SettingsEditor/0.23.1680.1027/-1023.-1057.3840.1057@-1023.-1057.3840.1057" timestamp="1603806772696" />
     <state x="352" y="169" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1598345572533" />
+    <state x="-516" y="-836" key="VCS.ChangeListViewerDialog" timestamp="1603651301683">
+      <screen x="-1023" y="-1080" width="3840" height="1080" />
+    </state>
+    <state x="-516" y="-836" key="VCS.ChangeListViewerDialog/0.0.1680.1050/-1023.-1080.3840.1080@-1023.-1080.3840.1080" timestamp="1603651301683" />
+    <state x="-473" y="-800" key="Vcs.Push.Dialog.v2" timestamp="1603651285775">
+      <screen x="-1023" y="-1080" width="3840" height="1080" />
+    </state>
+    <state x="-473" y="-800" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-1023.-1080.3840.1080@-1023.-1080.3840.1080" timestamp="1603651285775" />
     <state x="627" y="-747" key="refactoring.ChangeSignatureDialog" timestamp="1602661317961">
       <screen x="-180" y="-1057" width="1920" height="1057" />
     </state>
@@ -138,9 +191,10 @@
       <screen x="-1023" y="-1080" width="3840" height="1080" />
     </state>
     <state x="-408" y="-284" key="run.anything.popup/0.0.1680.1050/-1023.-1080.3840.1080@-1023.-1080.3840.1080" timestamp="1603631365950" />
-    <state x="505" y="250" key="search.everywhere.popup" timestamp="1598524633453">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="131" y="-823" key="search.everywhere.popup" timestamp="1603804376426">
+      <screen x="-1023" y="-1057" width="3840" height="1057" />
     </state>
+    <state x="131" y="-823" key="search.everywhere.popup/0.23.1680.1027/-1023.-1057.3840.1057@-1023.-1057.3840.1057" timestamp="1603804376426" />
     <state x="505" y="250" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598524633453" />
   </component>
 </project>
