@@ -33,6 +33,6 @@ console.log(jane);
 // 建構函式中的 prototype 屬性是繼承其的物件的 prototype, 而非 Person.__proto__
 console.log("Person.prototype 加入屬性後", Person.prototype)
 // john 繼承了 Person 因此 john.__proto__ 會等於 Person.prototype
-// 使用 new 建立新物件時 會將建構函式的 prototype 屬性加到 new 所建立的空物件內, 成為該物件的 .__protp__
+// 使用 new 建立新物件時 會將建構函式的 prototype 屬性加到 new 所建立的空物件內, 成為該物件的 .__proto__
 console.log(john.__proto__);
 console.log(Person.__proto__);

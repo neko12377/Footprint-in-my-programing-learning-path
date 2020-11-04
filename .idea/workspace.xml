@@ -27,26 +27,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cffe8e05-eb76-468a-a299-580d0c891831" name="Default Changelist" comment="learn prototype chain">
-      <change afterPath="$PROJECT_DIR$/webpack practicing/EntryPoint/multiEntryA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack practicing/EntryPoint/multiEntryB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack practicing/HTML Template/multiEntryA.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack practicing/HTML Template/multiEntryB.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack practicing/Styles/multiEntryA.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack practicing/Styles/multiEntryB.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack practicing/commonModule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack practicing/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack practicing/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack.common.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack.prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitIgnore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitIgnore" afterDir="false" />
+    <list default="true" id="cffe8e05-eb76-468a-a299-580d0c891831" name="Default Changelist" comment="learn webpack">
+      <change afterPath="$PROJECT_DIR$/prototype chain/prototypeChain.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack practicing/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototype chain/prototype.js" beforeDir="false" afterPath="$PROJECT_DIR$/prototype chain/prototype.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack practicing/EntryPoint/multiEntryA.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack practicing/EntryPoint/multiEntryA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack practicing/EntryPoint/multiEntryB.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack practicing/EntryPoint/multiEntryB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack practicing/commonModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack practicing/CommonModule/A.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack practicing/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack practicing/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack.common.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/XHR/xhr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/webpack.config.js" afterDir="false" />
     </list>
+    <list id="a7b2b2e3-343f-4d66-ba90-a6bddd01304c" name="learn webpack" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,17 +82,25 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webpack practicing/CommonModule" />
       <recent name="$PROJECT_DIR$/src/Styles" />
       <recent name="$PROJECT_DIR$/src/HTML Template" />
       <recent name="$PROJECT_DIR$/src/EntryPoint" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/mpaTest" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cffe8e05-eb76-468a-a299-580d0c891831" name="Default Changelist" comment="" />
+      <changelist id="a7b2b2e3-343f-4d66-ba90-a6bddd01304c" name="learn webpack" comment="" />
       <created>1598344874262</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -140,7 +141,19 @@
       <workItem from="1603851735847" duration="148000" />
       <workItem from="1603851915887" duration="3551000" />
       <workItem from="1603856924787" duration="12213000" />
-      <workItem from="1603874398012" duration="20913000" />
+      <workItem from="1603874398012" duration="29287000" />
+      <workItem from="1604136316818" duration="4230000" />
+      <workItem from="1604288681534" duration="459000" />
+      <workItem from="1604290897653" duration="86000" />
+      <workItem from="1604297592755" duration="2300000" />
+      <workItem from="1604301583513" duration="282000" />
+      <workItem from="1604305353654" duration="1158000" />
+      <workItem from="1604333073913" duration="2797000" />
+      <workItem from="1604377410080" duration="4471000" />
+      <workItem from="1604475927401" duration="81000" />
+      <workItem from="1604476079812" duration="254000" />
+      <workItem from="1604480403831" duration="124000" />
+      <workItem from="1604480999537" duration="4514000" />
     </task>
     <task id="LOCAL-00001" summary="learn prototype chain">
       <created>1603651106439</created>
@@ -156,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603807256145</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="learn webpack">
+      <created>1603961073400</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603961073400</updated>
+    </task>
+    <task id="LOCAL-00004" summary="learn webpack">
+      <created>1603961138444</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603961138444</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,13 +203,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="learn prototype chain" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn prototype chain" />
+    <MESSAGE value="learn webpack" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn webpack" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="244" y="-867" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602669880021">
+    <state x="244" y="-867" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604482262705">
       <screen x="-180" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="244" y="-867" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1602669880021" />
+    <state x="244" y="-867" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1604482262705" />
+    <state x="506" y="-720" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604488867649">
+      <screen x="-180" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="506" y="-720" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1604488867649" />
+    <state x="398" y="-857" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1603961308727">
+      <screen x="-180" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="398" y="-857" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1603961308727" />
     <state x="439" y="-790" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603807121018">
       <screen x="-1023" y="-1057" width="3840" height="1057" />
     </state>
@@ -197,16 +233,27 @@
     <state x="-111" y="-908" key="SettingsEditor/0.23.1680.1027/-1023.-1057.3840.1057@-1023.-1057.3840.1057" timestamp="1603806772696" />
     <state x="276" y="-908" key="SettingsEditor/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1603960989123" />
     <state x="352" y="169" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1598345572533" />
-    <state x="-516" y="-818" key="VCS.ChangeListViewerDialog" timestamp="1603807592652">
-      <screen x="-1023" y="-1057" width="3840" height="1057" />
+    <state x="74" y="-818" key="VCS.ChangeListViewerDialog" timestamp="1603961259734">
+      <screen x="-180" y="-1057" width="1920" height="1057" />
     </state>
     <state x="-516" y="-836" key="VCS.ChangeListViewerDialog/0.0.1680.1050/-1023.-1080.3840.1080@-1023.-1080.3840.1080" timestamp="1603651301683" />
     <state x="-516" y="-818" key="VCS.ChangeListViewerDialog/0.23.1680.1027/-1023.-1057.3840.1057@-1023.-1057.3840.1057" timestamp="1603807592652" />
-    <state x="-473" y="-783" key="Vcs.Push.Dialog.v2" timestamp="1603807260422">
-      <screen x="-1023" y="-1057" width="3840" height="1057" />
+    <state x="74" y="-818" key="VCS.ChangeListViewerDialog/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1603961259734" />
+    <state x="633" y="-608" key="VCS.ChangelistChooser" timestamp="1603961106729">
+      <screen x="-180" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="633" y="-608" key="VCS.ChangelistChooser/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1603961106729" />
+    <state x="95" y="-783" key="Vcs.Push.Dialog.v2" timestamp="1603961229220">
+      <screen x="-180" y="-1057" width="1920" height="1057" />
     </state>
     <state x="-473" y="-800" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-1023.-1080.3840.1080@-1023.-1080.3840.1080" timestamp="1603651285775" />
     <state x="-473" y="-783" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-1023.-1057.3840.1057@-1023.-1057.3840.1057" timestamp="1603807260422" />
+    <state x="95" y="-783" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1603961229220" />
+    <state x="549" y="-610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604476151076">
+      <screen x="-180" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="549" y="-610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1604476151076" />
+    <state x="638" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.1027/-180.-1057.1920.1057@0.23.1680.1027" timestamp="1604475987172" />
     <state x="627" y="-747" key="refactoring.ChangeSignatureDialog" timestamp="1602661317961">
       <screen x="-180" y="-1057" width="1920" height="1057" />
     </state>
@@ -221,5 +268,16 @@
     <state x="131" y="-823" key="search.everywhere.popup/0.23.1680.1027/-1023.-1057.3840.1057@-1023.-1057.3840.1057" timestamp="1603804376426" />
     <state x="397" y="-823" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1603944314211" />
     <state x="505" y="250" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598524633453" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/webpack/webpack.config.js</url>
+          <line>57</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

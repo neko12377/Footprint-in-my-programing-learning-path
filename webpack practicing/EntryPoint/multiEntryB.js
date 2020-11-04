@@ -1,2 +1,2 @@
-import "../commonModule";
+import "../CommonModule/A";
 import "../Styles/multiEntryB.css";

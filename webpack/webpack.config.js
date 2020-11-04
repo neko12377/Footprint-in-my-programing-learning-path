@@ -9,7 +9,12 @@ const config = {
     // 用 context 來指定 root 資料夾位置
     context: path.resolve(__dirname, ".."),
     // entry 內的位置會以 context 中設定的為基準
-    entry: {INDEX: "./webpack\ practicing/index", Hello: "./webpack\ practicing/EntryPoint/multiEntryA", gogo: "./webpack\ practicing/EntryPoint/multiEntryB"}, // 沒有給 key 的話預設是 main
+    entry: {
+        INDEX: "./webpack\ practicing/index",
+        // 可以藉由使用陣列來作為值的方式將沒有 import 到 js 檔案內的其他檔案，在打包後放入同一個 chunk
+        Hello: ["./webpack\ practicing/EntryPoint/multiEntryA", "./webpack\ practicing/Styles/multiEntryA.css"],
+        gogo: "./webpack\ practicing/EntryPoint/multiEntryB"
+    }, // 沒有給 key 的話預設是 main
     // output.filename 一定要使用絕對位置
     /**@tutorial https://webpack.js.org/configuration/output/#outputpath */
     output: {
@@ -54,9 +59,8 @@ const config = {
         new HtmlWebpackPlugin({
             template: "./webpack\ practicing/HTML\ template/multiEntryA.html",
             scriptLoading: "defer",
-            chunks: ["Hello"],
-            filename: "html/multiEntryA.html"
-            // filename: "index789.html"
+            filename: "html/multiEntryA.html",
+            chunks: ["Hello"]
         }),
         new HtmlWebpackPlugin({
             template: "./webpack\ practicing/HTML\ template/multiEntryB.html",
@@ -92,17 +96,18 @@ const config = {
                     minSize: 0,
                 },
                 common: {
-                    test: /[\\/]commonModule/,
+                    test: /[\\/]CommonModule[\\/]/,
                     priority: 50,
                     name: "common",
                     chunks: "all",
                     minSize: 0,
                 }
             }
-        }
+        },
+        runtimeChunk: "multiple"
     }
 }
 
 module.exports = config;
 
-console.log(MiniCssExtractPlugin.loader)
+console.log(config.context);

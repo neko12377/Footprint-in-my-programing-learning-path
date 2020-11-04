@@ -1,3 +1,3 @@
-import "./commonModule";
+import "./CommonModule/A";
 import "./index.css";
 
